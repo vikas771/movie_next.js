@@ -25,7 +25,7 @@ const movie = async () => {
   // console.log("data", data.titles);
 
   return (
-    <div>
+    <>
       <section className={Style.movieSection}>
         <div className={Style.container}>
           <h1>Movies & Series</h1>
@@ -38,7 +38,7 @@ const movie = async () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

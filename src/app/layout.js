@@ -1,4 +1,5 @@
 import Header from './component/Header'
+import Footer from './component/footer';
 import './globals.css'
 import { Mulish } from 'next/font/google';
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body>
       <Header />
       {children}
+      <Footer />
       </body>
     </html>
   )
